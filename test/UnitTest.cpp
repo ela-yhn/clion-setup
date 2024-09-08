@@ -12,7 +12,7 @@ TEST_CASE("always passing") {
 
 	SECTION("example: basic assertion") {
 		// TODO: fix the following test to get it to pass
-		REQUIRE(1 == 2);
+		REQUIRE(2 == 2);
 	}
 
 	SECTION("example: throwing an exception") {
