@@ -6,6 +6,10 @@
  * returns n!
  */
 int factorial(int n) {
-	// TODO: implement the factorial function
-	return 0;
+	int prod = 1;
+	while (n > 0) {
+		prod = n * prod;
+		n += -1;
+	}
+	return prod;
 }
